@@ -16,7 +16,9 @@ public class testBaraja {
 //        baraja.darCartas(5);
         baraja.mostrar();
         System.out.println();
-        baraja.cartasUsadas();
+        baraja.barajar();
+        System.out.println();
+        baraja.mostrar();
 //        System.out.println("aa");
 //        baraja.reiniciar();
 //        System.out.println("aaa");

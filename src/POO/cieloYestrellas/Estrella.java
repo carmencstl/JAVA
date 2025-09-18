@@ -23,16 +23,16 @@ public class Estrella {
 
     public boolean esCercana() {
         
-        int cercana = (int)(Math.random() * 31);
-       
-        return cercana <= 10;
+        int cercana = (int)(Math.random() * 40);
+        
+        return cercana <= 15;
         
     }
     
 
     @Override
     public String toString() {
-        
+       
         return this.forma + "";
     }
     

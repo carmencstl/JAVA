@@ -44,7 +44,7 @@ public class Cielo {
                 else
                     res += this.cielo[i][j] + " ";
             }
-            res += "\n";
+            res += "\n";      
         }
         return res;
     }
